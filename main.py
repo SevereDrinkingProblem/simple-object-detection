@@ -7,10 +7,10 @@ from windowCapture import WindowCapture
 
 
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='./FILE_NAME.pt', force_reload=True);
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='./icoV3.pt', force_reload=True);
 
 def main():
-    winCap = WindowCapture('WINDOW NAME');
+    winCap = WindowCapture('ICO');
     loopTime = time();
 
     while(True):
