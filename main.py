@@ -7,10 +7,10 @@ from windowCapture import WindowCapture
 
 
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='./FILE_NAME.pt', force_reload=True);
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='./fish.pt', force_reload=True);
 
 def main():
-    winCap = WindowCapture('WINDOW NAME');
+    winCap = WindowCapture('fish.mp4 - VLC media player');
     loopTime = time();
 
     while(True):
