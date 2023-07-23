@@ -1,4 +1,4 @@
-# simple-object-detection
+# Simple Object Detection
 
 run `pip install -r requirements.txt` to install any missing modules
 
